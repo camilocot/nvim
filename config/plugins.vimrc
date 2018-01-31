@@ -40,7 +40,7 @@ let g:airline#extensions#nrrwrgn#enabled    = 0
 let g:airline#extensions#capslock#enabled   = 0
 let g:airline#extensions#windowswap#enabled = 0
 
-let g:airline_theme             = 'powerlineish'
+let g:airline_theme             = 'oceanicnext'
 
 """"""""""""""""""""""""""""""
 " NerdTree
