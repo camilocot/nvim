@@ -35,3 +35,6 @@ au BufNewFile,BufRead *.json setfiletype json syntax=javascript
 au BufNewFile,BufRead *.rss setfiletype xml
 " sh indentation
 au BufNewFile,BufRead *.sh setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab fileformat=unix
+
+" Set the working directory always the same as the file you are editing
+autocmd BufEnter * silent! lcd %:p:h

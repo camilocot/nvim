@@ -9,4 +9,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 call plug#end()
