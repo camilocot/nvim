@@ -36,11 +36,14 @@ nnoremap <M-l> <c-w>l
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
+nnoremap <M-N> :bnext<CR>
+nnoremap <M-P> :bprev<CR>
+
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 
 " Nerdtree options
-map <F3> :NERDTreeToggle<CR>
+map <F4> :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
 
 " Bind nohl
@@ -48,3 +51,13 @@ nnoremap <leader>f :NERDTreeFind<CR>
 noremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
+
+" Tagbar window.
+nmap <F8> :TagbarToggle<CR>
+
+" Toggle the undo-tree panel.
+nnoremap <F5> :UndotreeToggle<cr>
+
+" Toggle better line numbers
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F2> :NumbersOnOff<CR>
