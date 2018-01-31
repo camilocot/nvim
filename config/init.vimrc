@@ -12,4 +12,5 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 	Plug 'mhartington/oceanic-next'
 	Plug 'zchee/deoplete-jedi'
+	Plug 'brooth/far.vim'
 call plug#end()
