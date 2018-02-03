@@ -1,9 +1,6 @@
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
-" Better copy & paste
-set pastetoggle=<F2>
-
 " Automatically reload the configuration
 augroup myvimrc
     au!

@@ -1,3 +1,6 @@
+" Better copy & paste
+set pastetoggle=<F1>
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
@@ -58,6 +61,12 @@ nmap <F8> :TagbarToggle<CR>
 " Toggle the undo-tree panel.
 nnoremap <F5> :UndotreeToggle<cr>
 
-" Toggle better line numbers
-nnoremap <F3> :NumbersToggle<CR>
-nnoremap <F2> :NumbersOnOff<CR>
+" Toggle spell checking on and off with `\s`
+nmap <silent> <leader>s :set spell!<CR>
+
+" Bubble single lines
+nmap <C-Up> [e
+nmap <C-Down> ]e
+" Bubble multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
