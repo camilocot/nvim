@@ -27,4 +27,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'
 	Plug 'plytophogy/vim-virtualenv'
 	Plug 'mbbill/undotree'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'artur-shaik/vim-javacomplete2'
+	Plug 'alvan/vim-closetag'
+	Plug 'smerrill/vcl-vim-plugin'
 call plug#end()

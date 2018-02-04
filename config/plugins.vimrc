@@ -58,7 +58,6 @@ let NERDTreeShowHidden=1
 let NERDTreeWinPos="right"
 " Making it prettier
 let NERDTreeWinSize=40
-let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 " Automatically delete the buffer of the file you just deleted with NerdTree
 let NERDTreeAutoDeleteBuffer = 1
@@ -81,3 +80,6 @@ au BufEnter * EnableStripWhitespaceOnSave
 let anyfold_activate=1
 " Choose a higher foldlevel if you prefer to have folds open by default
 set foldlevel=2
+
+" Java autocomplete
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
