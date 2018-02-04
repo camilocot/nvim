@@ -20,3 +20,21 @@ autocmd BufEnter * silent! lcd %:p:h
 " A file that matches with one of these patterns is ignored when expanding wildcards
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/node_modules/*
 
+" Centralize backups, swapfiles and undo history
+" backups:
+set backup
+set backupdir=~/.vim/tmp
+" swaps:
+set directory=~/.vim/tmp
+set writebackup
+" undo:
+set undofile
+set undodir=~/.vim/tmp
+set undolevels=1000
+set undoreload=10000
+
+" auto cleanup on startup:
+silent execute '!find $HOME/.vim/tmp/ -not -name .gitignore -type f -delete'
+
+" Don’t show the intro message when starting Vim
+set shortmess=atI
