@@ -2,7 +2,7 @@
 set so=7
 
 " Automatically reload the configuration
-augroup myvimrc
+augroup vimrcreload
     au!
     au BufWritePost init.vim,*.vimrc so %
 augroup END

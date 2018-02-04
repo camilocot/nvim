@@ -77,4 +77,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " This will strip all trailing whitespace everytime you save the file for all file types.
 au BufEnter * EnableStripWhitespaceOnSave
 
-let g:numbers_exclude = ['tagbar', 'undotree', 'gundo', 'nerdtree']
+" Enable anyfold
+let anyfold_activate=1
+" Choose a higher foldlevel if you prefer to have folds open by default
+set foldlevel=2

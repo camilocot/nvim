@@ -6,6 +6,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-unimpaired'
+	Plug 'godlygeek/tabular'
+	Plug 'pseewald/vim-anyfold'
 	Plug 'ntpeters/vim-better-whitespace'
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
