@@ -73,3 +73,9 @@ vmap <C-Down> ]egv
 
 " Toggle current fold open/closed
 nnoremap <Space> za
+
+" Golang key mappings
+au Filetype go nnoremap <leader>r :GoRun %<CR>
+au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
+au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
+au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>

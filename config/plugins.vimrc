@@ -69,6 +69,11 @@ let NERDTreeQuitOnOpen = 1
 " Automatically close a tab if the only remaining window is NerdTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+""""""""""""""""""""""""""""""
+" Go-Vim
+""""""""""""""""""""""""""""""
+" format with goimports instead of gofmt
+let g:go_fmt_command = "goimports"
 
 """"""""""""""""""""""""""""""
 " Others
