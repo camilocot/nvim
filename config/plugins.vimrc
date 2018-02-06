@@ -62,8 +62,8 @@ let NERDTreeDirArrows=1
 " Automatically delete the buffer of the file you just deleted with NerdTree
 let NERDTreeAutoDeleteBuffer = 1
 " Open by default if no command line arguments
-au StdinReadPre * let s:std_in=1
-au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" au StdinReadPre * let s:std_in=1
+" au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Automatically close NerdTree when you open a file
 let NERDTreeQuitOnOpen = 1
 " Automatically close a tab if the only remaining window is NerdTree
