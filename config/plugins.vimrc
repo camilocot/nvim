@@ -83,8 +83,7 @@ au BufEnter * EnableStripWhitespaceOnSave
 
 " Enable anyfold
 let anyfold_activate=1
-" Choose a higher foldlevel if you prefer to have folds open by default
-set foldlevel=2
+set foldlevel=100
 
 " Java autocomplete
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
