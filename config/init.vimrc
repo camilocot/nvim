@@ -8,7 +8,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-unimpaired'
 	Plug 'tpope/vim-repeat'
 	" Plug 'tpope/vim-projectionist'
-	" Plug '~/.fzf'
+	" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
+	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'w0rp/ale'
 	Plug 'godlygeek/tabular'
 	Plug 'pseewald/vim-anyfold'
