@@ -1,5 +1,5 @@
 " Better copy & paste
-set pastetoggle=<F1>
+set pastetoggle=<F2>
 
 " Fast saving
 nmap <leader>w :w!<cr>
