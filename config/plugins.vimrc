@@ -75,6 +75,15 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " format with goimports instead of gofmt
 let g:go_fmt_command = "goimports"
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Sessions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:session_autosave = 'no'
+let g:startify_session_dir = "~/.config/nvim/sessions"
+let g:startify_custom_header =[]
+
+autocmd VimLeave * :mksession! ~/.config/nvim/sessions/last.vim
+
 """"""""""""""""""""""""""""""
 " Others
 """"""""""""""""""""""""""""""
