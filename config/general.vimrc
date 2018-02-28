@@ -18,7 +18,7 @@ highlight SpecialKey guifg=#4a4a59
 autocmd BufEnter * silent! lcd %:p:h
 
 " A file that matches with one of these patterns is ignored when expanding wildcards
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/node_modules/*
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/node_modules/*,*/vendor/*,*/plugged/*
 
 " Centralize backups, swapfiles and undo history
 " backups:
