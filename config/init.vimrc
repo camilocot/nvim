@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/plugged')
 	" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
+	" Use RipGrep in Vim and display results in a quickfix list
+	Plug 'jremmen/vim-ripgrep'
 	" Text filtering and alignment
 	Plug 'godlygeek/tabular'
 	" Generic folding mechanism and motion based on indentation
