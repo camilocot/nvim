@@ -17,8 +17,7 @@ call plug#begin('~/.config/nvim/plugged')
 	" Plug 'tpope/vim-projectionist'
 	" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-	" Asynchronous Lint Engine
-	Plug 'w0rp/ale'
+	Plug 'junegunn/fzf.vim'
 	" Text filtering and alignment
 	Plug 'godlygeek/tabular'
 	" Generic folding mechanism and motion based on indentation
