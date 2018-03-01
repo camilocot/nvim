@@ -30,6 +30,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 	" deoplete.nvim source for Python
 	Plug 'zchee/deoplete-jedi'
+        " Python autocompletion with VIM
+        Plug 'davidhalter/jedi-vim'
 	" A tree explorer
 	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 	" A plugin of NERDTree showing git status

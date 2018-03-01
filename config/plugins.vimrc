@@ -68,6 +68,8 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeQuitOnOpen = 1
 " Automatically close a tab if the only remaining window is NerdTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" CWD is changed whenever the tree root is changed
+let g:NERDTreeChDirMode=2"
 
 """"""""""""""""""""""""""""""
 " Go-Vim
