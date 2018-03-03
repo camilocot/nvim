@@ -79,3 +79,6 @@ au Filetype go nnoremap <leader>r :GoRun %<CR>
 au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
 au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
 au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>
+
+" Delete current buffer without closing the window
+nnoremap <C-c> :bp\|bd #<CR>
