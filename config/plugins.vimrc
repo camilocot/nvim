@@ -95,14 +95,3 @@ au BufEnter * EnableStripWhitespaceOnSave
 " Enable anyfold
 let anyfold_activate=1
 set foldlevel=100
-
-" Java autocomplete
-" autocmd FileType java setlocal omnifunc=javacomplete#Complete
-
-" w1rp/ale
-" Disable linters
-let g:ale_linters = {
-\   'java': [],
-\}
-
-

@@ -14,7 +14,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-unimpaired'
 	" Enable repeating supported plugin maps with "."
 	Plug 'tpope/vim-repeat'
-	" Plug 'tpope/vim-projectionist'
+	" Continuously updated session files
+	Plug 'tpope/vim-obsession'
+	" The fancy start screen for Vim
+	Plug 'mhinz/vim-startify'
 	" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
