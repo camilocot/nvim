@@ -86,6 +86,11 @@ let g:startify_custom_header =[]
 
 autocmd VimLeave * :mksession! ~/.config/nvim/sessions/last.vim
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Numbers
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:numbers_exclude = ['tagbar', 'undotree', 'undo', 'diff', 'vimshell', 'help']
+
 """"""""""""""""""""""""""""""
 " Others
 """"""""""""""""""""""""""""""

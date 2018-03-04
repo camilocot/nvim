@@ -82,3 +82,6 @@ au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>
 
 " Delete current buffer without closing the window
 nnoremap <C-c> :bp\|bd #<CR>
+
+" Switch between relativenumber and number
+nnoremap <F3> :NumbersOnOff<CR>

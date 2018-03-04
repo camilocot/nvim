@@ -70,4 +70,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'alvan/vim-closetag'
 	" A VCL highlighting plugin for vim.
 	Plug 'smerrill/vcl-vim-plugin'
+	" plugin for intelligently toggling line numbers
+	Plug 'myusuf3/numbers.vim'
 call plug#end()
