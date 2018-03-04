@@ -48,7 +48,7 @@ let g:airline#extensions#promptline#enabled = 0
 let g:airline#extensions#ctrlspace#enabled = 0
 let g:airline#extensions#vimtex#enabled = 0
 
-let g:airline_theme             = 'oceanicnext'
+let g:airline_theme             = 'luna'
 
 """"""""""""""""""""""""""""""
 " NerdTree

@@ -16,6 +16,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-repeat'
 	" Continuously updated session files
 	Plug 'tpope/vim-obsession'
+	" Search for, substitute, and abbreviate multiple variants of a word
+	Plug 'tpope/vim-abolish'
 	" The fancy start screen for Vim
 	Plug 'mhinz/vim-startify'
 	" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
