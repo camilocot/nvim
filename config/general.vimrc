@@ -38,3 +38,7 @@ silent execute '!find $HOME/.vim/tmp/ -not -name .gitignore -type f -delete'
 
 " Don’t show the intro message when starting Vim
 set shortmess=atI
+
+" Icinga2 syntax
+autocmd BufNewFile,BufRead *.conf set syntax=icinga2
+
