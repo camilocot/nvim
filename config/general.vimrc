@@ -42,3 +42,6 @@ set shortmess=atI
 " Icinga2 syntax
 autocmd BufNewFile,BufRead *.conf set syntax=icinga2
 
+" show a single tab as 4 spaces in go file
+autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4
+

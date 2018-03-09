@@ -43,6 +43,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 	" Go development plugin
 	Plug 'fatih/vim-go'
+	" Transition between multiline and single-line code
+	Plug 'AndrewRadev/splitjoin.vim'
 	" Snippet solution
 	Plug 'SirVer/ultisnips'
 	" UltiSnip Snippets
@@ -53,7 +55,8 @@ call plug#begin('~/.config/nvim/plugged')
 	" Vim syntax file & snippets for Docker's Dockerfile."
 	Plug 'ekalinin/Dockerfile.vim'
 	" Theme
-	Plug 'mhartington/oceanic-next'
+	Plug 'fatih/molokai'
+	" Plug 'mhartington/oceanic-next'
 	" Find And Replace Vim plugin
 	Plug 'brooth/far.vim'
 	" A class outline viewer for Vim
