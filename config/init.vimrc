@@ -55,7 +55,8 @@ call plug#begin('~/.config/nvim/plugged')
 	" Vim syntax file & snippets for Docker's Dockerfile."
 	Plug 'ekalinin/Dockerfile.vim'
 	" Theme
-	Plug 'fatih/molokai'
+	Plug 'dracula/vim'
+	" Plug 'fatih/molokai'
 	" Plug 'mhartington/oceanic-next'
 	" Find And Replace Vim plugin
 	Plug 'brooth/far.vim'
