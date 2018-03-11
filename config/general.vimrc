@@ -45,3 +45,9 @@ autocmd BufNewFile,BufRead *.conf set syntax=icinga2
 " show a single tab as 4 spaces in go file
 autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4
 
+" Spell checker
+set spell
+" they were using white on white
+highlight PmenuSel ctermfg=black ctermbg=lightgray
+" limit it to just the top 10 items
+set sps=best,10

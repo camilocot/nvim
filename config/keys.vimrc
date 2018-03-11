@@ -89,5 +89,5 @@ let g:go_auto_sameids = 1
 " Delete current buffer without closing the window
 nnoremap <C-c> :bp\|bd #<CR>
 
-" Switch between relativenumber and number
-nnoremap <F3> :NumbersOnOff<CR>
+" toggle spelling
+map <F3> :set spell!<CR><Bar>:echo "Spell Check: " . strpart("OffOn", 3 * &spell, 3)<CR>
