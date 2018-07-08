@@ -45,6 +45,11 @@ autocmd BufNewFile,BufRead *.conf set syntax=icinga2
 " show a single tab as 4 spaces in go file
 autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4
 
+" in makefiles, don't expand tabs to spaces, since actual tab characters are
+" needed, and have indentation at 8 chars to be sure that all indents are tabs
+" (despite the mappings later):
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+
 " Spell checker
 set spell
 " they were using white on white

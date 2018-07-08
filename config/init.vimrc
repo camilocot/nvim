@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-obsession'
 	" Search for, substitute, and abbreviate multiple variants of a word
 	Plug 'tpope/vim-abolish'
+	" UNIX shell commands that need it the most
+	Plug 'tpope/vim-eunuch'
 	" The fancy start screen for Vim
 	Plug 'mhinz/vim-startify'
 	" PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
