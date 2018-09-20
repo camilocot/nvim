@@ -78,4 +78,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'alvan/vim-closetag'
 	" A VCL highlighting plugin for vim.
 	Plug 'smerrill/vcl-vim-plugin'
+	" Make the yanked region apparent
+	Plug 'machakann/vim-highlightedyank'
 call plug#end()
