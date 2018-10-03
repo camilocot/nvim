@@ -80,4 +80,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'smerrill/vcl-vim-plugin'
 	" Make the yanked region apparent
 	Plug 'machakann/vim-highlightedyank'
+	" Grep enricher :)
+	Plug 'mhinz/vim-grepper'
 call plug#end()
