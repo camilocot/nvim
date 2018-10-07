@@ -82,4 +82,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'machakann/vim-highlightedyank'
 	" Grep enricher :)
 	Plug 'mhinz/vim-grepper'
+	" Basic terraform integration
+	Plug 'hashivim/vim-terraform'
 call plug#end()

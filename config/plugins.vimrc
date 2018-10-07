@@ -89,6 +89,11 @@ autocmd VimLeave * :mksession! ~/.config/nvim/sessions/last.vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:numbers_exclude = ['tagbar', 'undotree', 'undo', 'diff', 'vimshell', 'help']
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" terraform
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:terraform_align=1
+
 """"""""""""""""""""""""""""""
 " Others
 """"""""""""""""""""""""""""""
