@@ -74,6 +74,9 @@ let g:NERDTreeChDirMode=2"
 """"""""""""""""""""""""""""""
 " format with goimports instead of gofmt
 let g:go_fmt_command = "goimports"
+" guru doesn't handle files outside of of GOROOT/GOPATH
+" https://github.com/fatih/vim-go/issues/829
+let g:go_def_mode = "godef"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sessions
