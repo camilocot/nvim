@@ -91,3 +91,7 @@ nnoremap <C-c> :bp\|bd #<CR>
 
 " toggle spelling
 map <F3> :set spell!<CR><Bar>:echo "Spell Check: " . strpart("OffOn", 3 * &spell, 3)<CR>
+
+" copy and paste from X11 clipboard
+vmap <leader>xyy :!xclip -f -sel clip<CR>
+map <leader>xpp mz:0r !xclip -o -sel clip<CR>`z

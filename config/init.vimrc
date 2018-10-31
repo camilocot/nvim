@@ -84,4 +84,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'mhinz/vim-grepper'
 	" Basic terraform integration
 	Plug 'hashivim/vim-terraform'
+	" Instant markdown preview
+	Plug 'suan/vim-instant-markdown'
 call plug#end()
