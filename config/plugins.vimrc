@@ -104,5 +104,5 @@ let g:terraform_align=1
 au BufEnter * EnableStripWhitespaceOnSave
 
 " Enable anyfold
-let anyfold_activate=1
 set foldlevel=100
+autocmd Filetype * AnyFoldActivate
